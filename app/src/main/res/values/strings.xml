@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="startGame">startGame</string>
+    <string name="welcome">welcome</string>
+</resources>
