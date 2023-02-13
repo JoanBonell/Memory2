@@ -22,8 +22,13 @@ public class MainActivity extends AppCompatActivity {
         startGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                openWindow();
             }
         });
+    }
+    private void openWindow(){
+        Uri uri = Uri.parse("https://www.campusigualada.udl.cat");
+        Intent it = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(it);
     }
 }
